@@ -16,7 +16,8 @@
 }
 
 body {
-	background-color: #696969;
+	background-image: linear-gradient(to middle, #000000, #434343);
+
 }
 
 
@@ -46,5 +47,35 @@ tbody {
 .clearfix::before, .nav-pills::before, .container::before, .wrap::before, .clearfix::after, .nav-pills::after, .container::after, .wrap::after {
     display: table;
     content: " ";
+}
+
+#create-topic {
+	border-radius: 10px;
+	background-color: #e90426;
+}
+
+.nav-pills>li>a {
+	border-radius: 10px;
+	color: #ffffff;
+}
+
+#ember39 {
+	display: none;
+}
+
+.select-kit-body:hover {
+	color: #e90426;
+}
+
+span.name {
+	color: #ffffff;
+}
+
+.category-name {
+	color: #ffffff;
+}
+
+#ember21>a:hover {
+	color: #e90426;
 }
 
