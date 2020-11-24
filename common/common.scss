@@ -1,10 +1,8 @@
-@import url(https://drive.google.com/file/d/1H0DbAQr4iz7m-7_Q_M2AMLgZqc4Iofm5/view?usp=sharing);
-
 .d-header {
-        box-shadow: 20px;
-        border-bottom: 4.5px solid $tertiary;
+        box-shadow: 10px 10px 25px #000;
+        /*border-bottom: 4.5px solid $tertiary;
 	border-left: 4.5px solid $tertiary;
-	border-right: 4.5px solid $tertiary;
+	border-right: 4.5px solid $tertiary;*/
 	border-bottom-right-radius: 20px;
 	border-bottom-left-radius: 20px;
 	width: 65%;
@@ -27,20 +25,32 @@ body {
 	background-color: #696969;
 }
 
+
 tbody {
-	box-shadow: 5px;
-	border-radius: 30px;
-	border: 4.5px solid #000000;
-	background-color: #838383;
+	background:#838383;
+	border-top: none;
 }
 
 .full-width {
-	border: 4.5px solid #000000;
-	border-radius: 15px;
+	box-shadow: 0px 0px 100px #000;
+	border-radius: 13px;
 	margin: 5px;
+	background-color:#838383;
+	display: table;
 }
 
-.row {
+ .row {
 	border-top: none;
+	border-bottom: none;
+	display: table;
+}
+
+#list-area {
+	border-radius: 15px;	
+}
+
+.clearfix::before, .nav-pills::before, .container::before, .wrap::before, .clearfix::after, .nav-pills::after, .container::after, .wrap::after {
+    display: table;
+    content: " ";
 }
 
