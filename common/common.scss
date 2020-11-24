@@ -26,21 +26,18 @@ d-header .title {
 body {
 	background-color: #696969;
 }
-table {
-	width: 100%;
-}
 
-/*tbody {
+tbody {
 	box-shadow: 5px;
 	border-radius: 30px;
 	border: 4.5px solid #000000;
 	background-color: #838383;
-}*/
+}
 
 .full-width {
 	border: 4.5px solid #000000;
-	border-top: none;
 	border-radius: 15px;
+	margin: 5px;
 }
 
 .row {
