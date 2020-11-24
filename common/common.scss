@@ -1,7 +1,7 @@
 @import url(https://drive.google.com/file/d/1H0DbAQr4iz7m-7_Q_M2AMLgZqc4Iofm5/view?usp=sharing);
 
 .d-header {
-        box-shadow: none;
+        box-shadow: 20px;
         border-bottom: 4.5px solid $tertiary;
 	border-left: 4.5px solid $tertiary;
 	border-right: 4.5px solid $tertiary;
@@ -22,3 +22,28 @@ d-header .title {
 	color: black;
 	content: "Test";
 }
+
+body {
+	background-color: #696969;
+}
+table {
+	width: 100%;
+}
+
+/*tbody {
+	box-shadow: 5px;
+	border-radius: 30px;
+	border: 4.5px solid #000000;
+	background-color: #838383;
+}*/
+
+.full-width {
+	border: 4.5px solid #000000;
+	border-top: none;
+	border-radius: 15px;
+}
+
+.row {
+	border-top: none;
+}
+
