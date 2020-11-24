@@ -1,0 +1,24 @@
+@import url(https://drive.google.com/file/d/1H0DbAQr4iz7m-7_Q_M2AMLgZqc4Iofm5/view?usp=sharing);
+
+.d-header {
+        box-shadow: none;
+        border-bottom: 4.5px solid $tertiary;
+	border-left: 4.5px solid $tertiary;
+	border-right: 4.5px solid $tertiary;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+        height: 4em;
+	font-family: BLADRMF_;
+	.d-icon {
+		color: $secondary;
+	}
+}
+d-header .title {
+	padding-left: 20px;
+	font-size: 20rem;
+	color: black;
+	content: "Test";
+}
