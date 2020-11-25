@@ -29,7 +29,6 @@ tbody {
 .full-width {
 	box-shadow: 0px 0px 100px #000;
 	border-radius: 13px;
-	margin: 5px;
 	background-color:#838383;
 	display: table;
 }
@@ -42,11 +41,6 @@ tbody {
 
 #list-area {
 	border-radius: 15px;	
-}
-
-.clearfix::before, .nav-pills::before, .container::before, .wrap::before, .clearfix::after, .nav-pills::after, .container::after, .wrap::after {
-    display: table;
-    content: " ";
 }
 
 #create-topic {
