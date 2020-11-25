@@ -64,13 +64,14 @@ tbody {
 }
 
 .list-controls {
-	background-image: gradient-radial(#636363 #848484);
-	border-style: groove;
-	box-shadow: 0px 0px 15px #000;
+	background: radial-gradient(#8f8f8f,%50%, #636363);
+	box-shadow: inset 0px 0px 45px 0px rgba(0,0,0,1);
 	border-radius: 25px;
 	margin-top: 0px;
-	margin-left: 0px;
-	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	width: 75%;	
 	height: 70px;
 	.combo-box .combo-box-header {
 		margin-left: 15px;
