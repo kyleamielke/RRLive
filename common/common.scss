@@ -20,6 +20,9 @@
 body {
 	background: url('https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/themecreator/original/2X/d/da5a527672268602b1198beb12a6997c5f867f29.jpg');
 	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 
@@ -70,6 +73,8 @@ table th {
 	color: #ffffff;
 	margin-top: 20px;
 }
+
+
 
 #ember39 {
 	display: none;
