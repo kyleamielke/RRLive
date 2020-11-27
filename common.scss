@@ -1,7 +1,7 @@
 
 
-.d-header {
-        box-shadow: 0px 0px 30px #acb1b8;
+.d-header { /*header of the page (redROOMLIVE) */
+        box-shadow: 0px 0px 50px #000;
         /*border-bottom: 4.5px solid $tertiary;
 	border-left: 4.5px solid $tertiary;
 	border-right: 4.5px solid $tertiary;*/
@@ -17,24 +17,44 @@
 	}
 }
 
-body {
-	background: url('https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/themecreator/original/2X/d/da5a527672268602b1198beb12a6997c5f867f29.jpg');
-	background-size: contain;
+.d-header-icons { /* header icons*/
+	.d-header{
+			max-width: 100%;
+	}
+}
+
+.menu-panel { /*drop down menu, top right corner*/
+	background: url('https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/themecreator/original/2X/8/89d209422c9bd153eac049ed32239bdaf3dda47d.png');
+	background-size: cover;
+	border-radius: 15px;
+	
+}
+
+.menu-panel li a.widget-link, .menu-panel li a.categories-link, .menu-panel li.heading a.widget-link, .menu-panel li.heading a.categories-link { /*text for drop down menu*/
+	color: #fff;
+}
+
+body { /*background of the page*/
+	background: url('https://github.com/kyleamielke/RRLive/raw/main/assets/background%20image.png');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 
-tbody {
+tbody { /*background of the posting area (table)*/
 	background: url('https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/themecreator/original/2X/8/89d209422c9bd153eac049ed32239bdaf3dda47d.png');
-        background-size: contain;
+        background-size: cover;
 	border-top: none;
         color: #ffffff;
 }
 
-.full-width {
-	box-shadow: 0px 0px 80px #acb1b8;
+.full-width { /*area in middle where "Latest, Top, Categories" buttons are*/
+	box-shadow: inset 0 0 30px #000, 0px 0px 100px #000;
 	border-radius: 13px;
-	display: table;
 	width: 100%;
+	display: table;
 	margin: 5px;
 	color: #ffffff;
 }
@@ -56,6 +76,7 @@ table th {
 
 #list-area {
 	border-radius: 15px;
+	width: 100%;
 }
 
 #create-topic {
@@ -71,14 +92,15 @@ table th {
 	margin-top: 20px;
 }
 
+
+
 #ember39 {
 	display: none;
 }
 
 .list-controls {
-	background: url('https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/themecreator/original/2X/b/b531596e8c20cfa2a2bfbb0a6a42655be52c80a5.jpeg');
 	background-size: contain;
-	box-shadow: inset 0px 0px 40px 0px #000;
+	box-shadow: inset 0px 0px 100px 0px #000, 0 0 100px #000;
 	border-radius: 25px;
 	margin-top: 0px;
 	margin-left: auto;
@@ -107,10 +129,6 @@ span.name {
 
 #ember21>a:hover {
 	color: #e90426;
-}
-
-#list-area {
-	width: 100%;
 }
 
 .select-kit.single-select {
