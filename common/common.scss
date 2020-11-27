@@ -23,9 +23,10 @@
 	}
 }
 
-.menu-panel {
-	background: none;
+.menu-panel { /*drop down menu, top right corner*/
+	background: url('https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/themecreator/original/2X/8/89d209422c9bd153eac049ed32239bdaf3dda47d.png');
 	border-radius: 15px;
+	color: #fff;
 }
 
 body { /*background of the page*/
