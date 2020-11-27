@@ -39,10 +39,10 @@
 		.read { /*user panel*/
 			background: none;
 		}
-		.quick-access-profile {
-			li:not(.show-all) a {
-					color: #fff;
-			}
+	}	
+	.quick-access-profile {
+		li:not(.show-all) a {
+				color: #fff;
 		}
 	}
 }
