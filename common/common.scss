@@ -40,10 +40,8 @@
 			background: none;
 		}
 		.auick-access-profile {
-			li:not(.show-all) {
-				a {
+			li:not(.show-all) a {
 					color: #fff;
-				}
 			}
 		}
 	}
