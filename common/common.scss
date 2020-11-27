@@ -34,11 +34,20 @@
 	color: #fff;
 }
 
-.user-menu .quick-access-panel .read { /*user panel*/
-	background: none;
-	color: #fff;
+.user-menu {
+	.quick-access-panel {
+		.read { /*user panel*/
+			background: none;
+		}
+		.auick-access-profile {
+			li:not(.show-all) {
+				a {
+					color: #fff;
+				}
+			}
+		}
+	}
 }
-
 body { /*background of the page*/
 	background: url('https://github.com/kyleamielke/RRLive/raw/main/assets/background%20image.png');
 	background-size: cover;
