@@ -47,6 +47,16 @@
 		.read { /*user panel*/
 			background: none;
 		}
+		
+		.d-icon, &:hover .d-icon {
+			color: #a90426;
+		}
+		
+		.icon {
+			color: #fff;
+		}
+		
+		
 	.quick-access-panel:hover {
 		background-color: #a90426;
 		}
