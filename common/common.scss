@@ -94,7 +94,12 @@
 .admin-detail { /*Admin settings*/
 	background: url('https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/themecreator/original/2X/8/89d209422c9bd153eac049ed32239bdaf3dda47d.png');
 	background-size: cover;
-	border-radius: 20px;
+}
+
+.admin-controls {
+	.controls {
+		background: none;
+		}
 }
 	
 body { /*background of the page*/
