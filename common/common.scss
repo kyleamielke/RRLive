@@ -40,6 +40,7 @@
 				.btn {
 					background: none;
 					color: #fff;
+					border-radius: 15px;
 				}
 			}
 	
@@ -60,6 +61,10 @@
 			color: #a90426;
 		}
 		
+		.d-icon:hover {
+			color: #a90426;
+		}
+		
 		.icon {
 			color: #fff;
 		}
@@ -71,11 +76,7 @@
 		li span:first-child {
 			color: #a90426;
 		}
-		
-	.quick-access-panel:hover {
-		background-color: #a90426;
-		}
-		
+
 		li {
 			background-color: #b6b6b6;
 			border-radius: 5px;
