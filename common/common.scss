@@ -259,3 +259,13 @@ div.menu-links-header .menu-links-row li.glyphs a {
 .menu-panel li a.widget-link, .menu-panel li a.categories-link, .menu-panel li.heading a.widget-link, .menu-panel li.heading a.categories-link {
 	border-radius: 10px;
 }
+
+.topic-list th:last-of-type, .topic-list td:last-of-type {
+	border-radius: 0 10px 0 0;
+}
+
+.btn {
+	.btn-default {
+		.bulk-select-all, .bulk-clear-all {
+			border-radius: 10px;
+			
