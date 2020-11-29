@@ -197,13 +197,19 @@ span.d-label {
 	color: #fff;
 }
 
+/* LOGIN BUTTON */
 .d-header .login-button {
 	background-color: #a90426;
 	color: #fff;
+	border-radius: 5px;
 	
 	&:hover {
 		background-color: var(--quaternary-low);
 	}
+}
+
+.d-header .login-button .fa, .d-header .sign-up-button .fa {
+    color: #fff;
 }
 
 #ember39 {
