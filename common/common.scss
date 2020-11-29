@@ -295,7 +295,7 @@ body:not(.ios-safari-composer-hacks) #reply-control.open {
 	box-shadow: inset 100px 100px 1000px 175px #000, 0 0 100px #000;
 }
 
-/* #reply-control .save-or-cancel button {
+#reply-control .save-or-cancel button {
     flex: 0 0 auto;
     background-color: var(--quaternary);
     border-radius: 10px;
@@ -305,7 +305,7 @@ body:not(.ios-safari-composer-hacks) #reply-control.open {
 	}
 }
 
-#reply-control .reply-to .d-icon {
+/* #reply-control .reply-to .d-icon {
     color: #fff;
 }
 
