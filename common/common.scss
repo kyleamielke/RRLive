@@ -182,9 +182,20 @@ a:visited {
 .search-menu input[type="text"] {
     border-radius: 10px;
     background: none;
+	color: #fff;
 }
 
+.search-menu .results .search-result-topic a.widget-link {
+    color: #e90426;
+}
 
+.search-link .blurb {
+	color: #fff;
+}
+
+span.d-label {
+	color: #fff;
+}
 
 #ember39 {
 	display: none;
