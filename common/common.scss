@@ -197,6 +197,15 @@ span.d-label {
 	color: #fff;
 }
 
+.d-header .login-button {
+	background-color: #a90426;
+	color: #fff;
+	
+	&:hover {
+		background-color: var(--quaternary-low);
+	}
+}
+
 #ember39 {
 	display: none;
 }
