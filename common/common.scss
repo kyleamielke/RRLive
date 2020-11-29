@@ -264,14 +264,18 @@ div.menu-links-header .menu-links-row li.glyphs a {
 	border-radius: 0 10px 0 0;
 }
 
-.btn {
-	.btn-default {
-		.bulk-select-all, .bulk-clear-all {
-			border-radius: 10px;
+button.btn.btn-default.bulk-clear-all {
+		border-radius: 10px;
+		background-color: var(--quaternary);
+		&:hover {
+			background-color: var(--quaternary-low);
 		}
-	}
 }
 
 button.btn.btn-default.bulk-select-all {
 		border-radius: 10px;
+		background-color: var(--quaternary);
+		&:hover {
+			background-color: var(--quaternary-low);
+		}
 }
