@@ -251,3 +251,11 @@ element.style {
 .topic-list-main-link a.title, .topic-list .main-link a.title, .latest-topic-list-item .main-link a.title {
         color: #ffffff;
 }
+
+div.menu-links-header .menu-links-row li.glyphs a {
+	border-radius: 10px;
+}
+
+.menu-panel li a.widget-link, .menu-panel li a.categories-link, .menu-panel li.heading a.widget-link, .menu-panel li.heading a.categories-link {
+	border-radius: 10px;
+}
