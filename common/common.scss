@@ -19,9 +19,9 @@
 
 .invites-show form {
 	box-shadow: inset 0 0 100px 0 #000;
-	border-radius: 5px;
+	border-radius: 10px;
 	padding-left: 15px;
-	padding-bottom:5px;
+	padding-bottom: 10px;
 	padding-top: 3px;
 	color: #fff;
 		.instructions {
@@ -33,6 +33,7 @@
 	background-color: #a90426;
 	border-radius: 5px;
 	color: #fff;
+	margin-top: none;
 		&:hover {
 			background-color: var(--quaternary-low);
 		}
