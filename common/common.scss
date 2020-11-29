@@ -292,11 +292,8 @@ div.menu-links-header .menu-links-row li a.active {
 /* ALL IN THIS AREA IS FOR CREATING A NEW TOPIC */
 body:not(.ios-safari-composer-hacks) #reply-control.open {
 	background: none;
-	box-shadow: inset 100px 100px 1000px 175px #000, 0 0 100px #000;
+	box-shadow: inset 25px 25px 900px 175px #000, 0 0 100px #000;
 }
-/* reply-control .reply-to {
-	color #fff;
-} */
 
 #reply-control .save-or-cancel button {
     flex: 0 0 auto;
@@ -317,6 +314,10 @@ body:not(.ios-safari-composer-hacks) #reply-control.open {
 	color: #fff;
 }
 
+#reply-control .category-input .category-chooser .select-kit-header {
+	background: none;
+}
+
  .d-editor-textarea-wrapper {
 	background: none;
 	color: #fff;
@@ -330,3 +331,10 @@ body:not(.ios-safari-composer-hacks) #reply-control.open {
 	color: #fff;
 }
 
+.d-editor, .d-editor-preview {
+	color: #fff;
+}
+
+.open .grippie {
+	background: none;
+}
