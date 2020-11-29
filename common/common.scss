@@ -219,6 +219,10 @@ span.d-label {
 	}
 }
 
+.login-modal td label, .login-modal td input, .create-account td label, .create-account td input {
+    color: #fff;
+}
+
 .modal-inner-container {
 	background: none;
 	box-shadow: inset 10px 10px 100px 10px #000, 0 8px 60px #000;
