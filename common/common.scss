@@ -213,6 +213,7 @@ span.d-label {
 	background-color: #a90426;
 	box-shadow: 0 0 10px #000;
 	border-radius: 7px;
+	color: #fff;
 	&:hover {
 		background-color: var(--quaternary-low);
 	}
@@ -246,6 +247,7 @@ input[type="text"], input[type="password"], input[type="datetime"], input[type="
 .login-modal #login-buttons:not(.hidden) button, .create-account #login-buttons:not(.hidden) button {
 	color: #fff;
 	background-color: #a90426;
+	border-radius: 7px;
 	
 	&:hover {
 		background-color: var(--quaternary-low);
