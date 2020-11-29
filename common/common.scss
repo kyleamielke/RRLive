@@ -209,7 +209,7 @@ span.d-label {
 	}
 }
 
-#ember26 {
+.btn-prmiary .login-button .btn .btn-icon-text .ember-view {
 	background-color: #a90426;
 	box-shadow: 0 0 10px #000;
 	border-radius: 7px;
@@ -217,10 +217,6 @@ span.d-label {
 	&:hover {
 		background-color: var(--quaternary-low);
 	}
-}
-
-.btn-primary.login-button.btn.bth-icon-texas.ember-view {
-	background-color: #a90426;
 }
 
 .modal-inner-container {
