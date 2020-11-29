@@ -242,7 +242,6 @@ element.style {
 
 .select-kit {
 	.select-kit-row.is-highlighted {
-		
 			background-color: #e90426;
 		
 	}
@@ -260,22 +259,52 @@ div.menu-links-header .menu-links-row li.glyphs a {
 	border-radius: 10px;
 }
 
-.topic-list th:last-of-type, .topic-list td:last-of-type {
+.topic-list th:last-of-type, .topic-list td:last-of-type { /*Activity Button of topics*/
 	border-radius: 0 10px 0 0;
 }
 
-button.btn.btn-default.bulk-clear-all {
+button.btn.btn-default.bulk-clear-all { /*Select all button for topics*/
 		border-radius: 10px;
 		background-color: var(--quaternary);
+		color: #fff;
 		&:hover {
 			background-color: var(--quaternary-low);
 		}
 }
 
-button.btn.btn-default.bulk-select-all {
+button.btn.btn-default.bulk-select-all { /*Clear all button for topics*/
 		border-radius: 10px;
 		background-color: var(--quaternary);
+		color: #fff;
 		&:hover {
 			background-color: var(--quaternary-low);
 		}
+}
+
+div.menu-links-header .menu-links-row li.glyphs a {
+	box-shadow: inset 0 0 5px 0 #fff;
+}
+
+body:not(.ios-safari-composer-hacks) #reply-control.open {
+	box-shadow: inset 100px 100px 1000px 175px #000, 0 0 100px #000;
+}
+
+#reply-control .save-or-cancel button {
+    flex: 0 0 auto;
+    background-color: var(--quaternary);
+	
+    border-radius: 10px;
+    color: #fff;
+	&:hover {	
+		background-color: var(--quaternary-low);
+}
+
+#reply-control .save-or-cancel .cancel {
+    flex: 0 0 auto;
+    background-color: var(--quaternary);
+	
+    border-radius: 10px;
+    color: #fff;
+	&:hover {	
+		background-color: var(--quaternary-low);
 }
