@@ -18,7 +18,7 @@
 }
 
 .invites-show form {
-	box-shadow: inset 0 0 100px 0 #000, 10px 10px 100px 10px #000;
+	box-shadow: inset 0 0 100px 0 #636369, 10px 10px 100px 10px #000;
 	border-radius: 10px;
 	padding-left: 15px;
 	padding-bottom: 10px;
@@ -29,6 +29,13 @@
 		}
 }
 
+.col-form {
+	color: #fff;
+	box-shadow: inset 10px 10px 100px 10px #000, 10px 10px 100px 10px #000;
+	padding-right: 20px;
+	border-radius: 10px;
+}
+
 .invites-show .two-col {
 	color: #e90426;
 }
@@ -37,10 +44,7 @@
 	color: #fff;
 }
 
-.user-info.small.ember-view {
-	color: #fff;
-	box-shadow: inset 0 0 100px 0 #000, 10px 10px 100px 10px #000;
-}
+
 
 .invites-show form button.btn-primary {
 	background-color: #e90426;
