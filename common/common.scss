@@ -219,6 +219,27 @@ span.d-label {
 	}
 }
 
+#ember27 {
+	background-color: #a90426;
+	box-shadow: 0 0 10px #000;
+	border-radius: 7px;
+	color: #fff;
+	&:hover {
+		background-color: var(--quaternary-low);
+	}
+}
+
+.d-header .login-button, .d-header .sign-up-button {
+    background-color: #a90426;
+	box-shadow: 0 0 10px #000;
+	color: #fff;
+	border-radius: 5px;
+	
+	&:hover {
+		background-color: var(--quaternary-low);
+	}
+}
+
 .login-modal td label, .login-modal td input, .create-account td label, .create-account td input {
     color: #fff;
 }
