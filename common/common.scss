@@ -218,6 +218,17 @@ span.d-label {
 	}
 }
 
+.modal-inner-container {
+	background: none;
+	box-shadow: inset 10px 10px 100px 10px #000, 0 8px 60px #000;
+	color: #fff;
+	border-radius: 25px;
+}
+
+#ember30 {
+	background: none;
+	
+
 .d-header .login-button .fa, .d-header .sign-up-button .fa {
     color: #fff;
 }
