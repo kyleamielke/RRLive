@@ -200,9 +200,18 @@ span.d-label {
 /* LOGIN BUTTON */
 .d-header .login-button {
 	background-color: #a90426;
+	box-shadow: 0 0 10px #000;
 	color: #fff;
 	border-radius: 5px;
 	
+	&:hover {
+		background-color: var(--quaternary-low);
+	}
+}
+
+#ember26 {
+	background-color: #a90426;
+	box-shadow: 0 0 10px #000;
 	&:hover {
 		background-color: var(--quaternary-low);
 	}
