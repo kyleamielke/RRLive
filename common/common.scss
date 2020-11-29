@@ -29,6 +29,10 @@
 		}
 }
 
+.user-info .user-detail .username a {
+	color: #fff;
+}
+
 .col-form {
 	color: #fff;
 	box-shadow: inset 10px 10px 100px 10px #000, 10px 10px 100px 10px #000;
@@ -277,6 +281,17 @@ span.d-label {
 		background-color: var(--quaternary-low);
 	}
 }
+
+.btn-primary.sign-up-button.btn.btn-text.ember-view {
+	background-color: #e90426;
+	box-shadow: 0 0 10px #000;
+	border-radius: 7px;
+	color: #fff;
+	&:hover {
+		background-color: var(--quaternary-low);
+	}
+}
+
 
 .d-header .login-button, .d-header .sign-up-button {
     background-color: #e90426;
