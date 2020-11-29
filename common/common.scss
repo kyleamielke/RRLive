@@ -229,6 +229,37 @@ span.d-label {
 	background: none;
 }
 
+.login-modal tbody, .create-account tbody {
+    background: none;
+}
+
+input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+	background: none;
+}
+
+.modal-footer .btn {
+	color: #fff;
+	background-color: #a90426;
+	border-radius: 10px;
+}
+
+.login-modal #login-buttons:not(.hidden) button, .create-account #login-buttons:not(.hidden) button {
+	color: #fff;
+	background-color: #a90426;
+	
+	&:hover {
+		background-color: var(--quaternary-low};
+	}
+}
+
+svg#far-envelope {
+	color: #fff;
+}
+
+svg#unlock {
+	color: #fff;
+}
+
 .d-header .login-button .fa, .d-header .sign-up-button .fa {
     color: #fff;
 }
