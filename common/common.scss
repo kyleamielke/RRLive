@@ -448,3 +448,8 @@ body:not(.ios-safari-composer-hacks) #reply-control.open {
 .open .grippie {
 	background: none;
 }
+
+#reply-control .category-input .category-chooser .select-kit-header { /*For search button on "New Topic"*/
+    background: none;
+	color: #fff;
+}
