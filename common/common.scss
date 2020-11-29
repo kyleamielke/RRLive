@@ -376,9 +376,10 @@ span.name {
 
 .category-name {
 	color: #e90426;
-	&:hover {
-		color: #fff;
-	}
+}
+
+.menu-panel li.category-link .badge-wrapper.bar, .menu-panel li.category-link .badge-wrapper.bullet {
+    color: #fff;
 }
 
 .select-kit.single-select {
