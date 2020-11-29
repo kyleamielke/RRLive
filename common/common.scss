@@ -20,6 +20,9 @@
 .d-header-icons { /* header icons*/
 	.d-header{
 			max-width: 100%;
+			&:hover {
+				background-color: var(--quaternary-low);
+			}
 	}
 }
 
