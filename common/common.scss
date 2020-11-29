@@ -242,10 +242,6 @@ span.d-label {
 	border-radius: 25px;
 }
 
-#ember30 {
-	background: none;
-}
-
 .login-modal tbody, .create-account tbody {
     background: none;
 }
@@ -269,17 +265,13 @@ input[type="text"], input[type="password"], input[type="datetime"], input[type="
 		background-color: var(--quaternary-low);
 	}
 }
-
+/* END OF LOGIN INFO */
 .btn .d-icon {
 	color: #fff;
 }
 
 .d-header .login-button .fa, .d-header .sign-up-button .fa {
     color: #fff;
-}
-
-#ember39 {
-	display: none;
 }
 
 .list-controls {
@@ -311,10 +303,6 @@ span.name {
 	color: #e90426;
 }
 
-#ember21>a:hover {
-	color: #e90426;
-}
-
 .select-kit.single-select {
 	.select-kit-filter {
 		.filter-input {
@@ -335,10 +323,6 @@ span.name {
 
 element.style {
 	background-color: #e90426;
-}
-
-#ember155:hover {
-	color: #e90426;
 }
 
 .select-kit {
