@@ -297,6 +297,7 @@ body:not(.ios-safari-composer-hacks) #reply-control.open {
     color: #fff;
 	&:hover {	
 		background-color: var(--quaternary-low);
+	}
 }
 
 #reply-control .save-or-cancel .cancel {
@@ -307,4 +308,5 @@ body:not(.ios-safari-composer-hacks) #reply-control.open {
     color: #fff;
 	&:hover {	
 		background-color: var(--quaternary-low);
+	}
 }
