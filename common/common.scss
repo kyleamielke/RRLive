@@ -299,14 +299,3 @@ body:not(.ios-safari-composer-hacks) #reply-control.open {
 		background-color: var(--quaternary-low);
 	}
 }
-
-#reply-control .save-or-cancel .cancel {
-    flex: 0 0 auto;
-    background-color: var(--quaternary);
-	
-    border-radius: 10px;
-    color: #fff;
-	&:hover {	
-		background-color: var(--quaternary-low);
-	}
-}
