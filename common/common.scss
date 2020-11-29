@@ -274,7 +274,7 @@ span.d-label {
 
 .btn-primary.login-button.btn.btn-icon-text.ember-view{
 	background-color: #e90426;
-	box-shadow: 0 0 10px #000;
+	box-shadow: 0 0 15px #000;
 	border-radius: 7px;
 	color: #fff;
 	&:hover {
@@ -283,8 +283,9 @@ span.d-label {
 }
 
 .btn-primary.sign-up-button.btn.btn-text.ember-view {
+	padding-right: 3px;
 	background-color: #e90426;
-	box-shadow: 0 0 10px #000;
+	box-shadow: 0 0 15px #000;
 	border-radius: 7px;
 	color: #fff;
 	&:hover {
