@@ -290,7 +290,7 @@ div.menu-links-header .menu-links-row li a.active {
 
 
 /* ALL IN THIS AREA IS FOR CREATING A NEW TOPIC */
-/*body:not(.ios-safari-composer-hacks) #reply-control.open {
+body:not(.ios-safari-composer-hacks) #reply-control.open {
 	background: none;
 	box-shadow: inset 100px 100px 1000px 175px #000, 0 0 100px #000;
 }
@@ -326,7 +326,7 @@ div.menu-links-header .menu-links-row li a.active {
 	color: #fff;
 }
 
-#reply-control #reply-title {
+/* #reply-control #reply-title {
 	background: none;
 	color: #fff;
 } */
