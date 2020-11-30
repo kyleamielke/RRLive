@@ -209,10 +209,6 @@ tbody {
 	color: #fff;
 	border-radius: 10px;
 }
-	
-svg>use {
-	color: #fff;
-}
 
 .fa.d-icon.d-icon-reply.svg-icon.svc-node.d-hover {
 	color: #fff;
@@ -228,10 +224,13 @@ svg>use {
 
 .widget-button.btn.popup-menu-button.toggle-admin-menu.keyboard-target-admin-menu.no-text.btn-icon {
 	background-color: #e90426;
-	radius: 5px;
+	border-radius: 5px;
 }
 
-
+.widget-button.btn.popup-menu-button.toggle-admin-menu.no-text.btn-icon {
+	background-color: #e90426;
+	border-radius: 5px;
+}
 
 /* REPLY FOOTER TEXT */
 #topic-footer-buttons .pinned-button .reason, #topic-footer-buttons .topic-notifications-button .reason {
