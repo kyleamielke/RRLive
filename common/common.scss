@@ -382,6 +382,50 @@ span.name {
     color: #fff;
 }
 
+/* USER SETTINGS PAGE */
+.user-content {
+	padding: 20px;
+	border-radius: 15px;
+	box-shadow: inset 2px 20px 500px 250px #000, 10px 10px 100px 10px #636369;
+	background: none;
+}
+
+.user-content-wrapper {
+	box-shadow: inset 100px 100px 500px 100px #000, 10px 10px 200px #000;
+	padding: 20px;
+	border-radius: 15px;
+	background: none;
+}
+
+.stats-section {
+
+	.value {
+		color: #e90426;
+	}
+	
+	.label {
+		color: #636369;
+	}
+}
+
+.activity-nav.action-list.activity-list.nav-stacked.ember-view {
+	color: #fff;
+	border-radius: 10px;
+	&:hover {
+		background-color: var(--quaternary-low);
+	}
+}
+
+.user-additional-controls {
+	background-color: #e90426;
+	border-radius: 10px;
+	color: #fff;
+	&:hover {
+		background-color: var(--quaternary-low);
+	}
+}
+
+
 .select-kit.single-select {
 	.select-kit-filter {
 		.filter-input {
