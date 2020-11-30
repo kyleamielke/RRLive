@@ -571,7 +571,10 @@ div.menu-links-header .menu-links-row li.glyphs a {
 		background: var(--quaternary-low);
 	}
 }	
-	
+
+.user-secondary-navigation .nav-stacked a.active {
+	color: #e90426;
+}
 
 /*END OF USER SETTINGS*/
 
