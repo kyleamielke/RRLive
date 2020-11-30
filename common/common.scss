@@ -567,6 +567,9 @@ div.menu-links-header .menu-links-row li.glyphs a {
 
 .select-kit {
 	border-radius: 5px;
+	.select-kit-row.is-selected.is-highlighted {
+		background: var(--quaternary-low);
+	}
 }	
 	
 
