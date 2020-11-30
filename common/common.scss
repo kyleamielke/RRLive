@@ -181,9 +181,10 @@ body {
 /*background of the posting area (table)*/
 tbody { 
 	background: none;
-        background-size: cover;
+    background-size: cover;
 	border-top: none;
-        color: #ffffff;
+    color: #ffffff;
+	
 }
 
 
@@ -196,7 +197,7 @@ tbody {
 
  /*area in middle where "Latest, Top, Categories" buttons are*/
 .full-width {
-	box-shadow: inset 0 0 30px #000, 0px 0px 100px #000;
+	box-shadow: inset 100px 100px 300px 100px #000, 10px 10px 100px #000;
 	border-radius: 13px;
 	width: 100%;
 	display: table;
