@@ -207,7 +207,13 @@ tbody {
 .discourse-no-touch .topic-body .actions .fade-out {
 	background-color: #e90426;
 	color: #fff;
+	border-radius: 10px;
 }
+	
+svg>use {
+	color: #fff;
+}
+
 .fa.d-icon.d-icon-reply.svg-icon.svc-node.d-hover {
 	color: #fff;
 }
