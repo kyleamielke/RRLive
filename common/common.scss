@@ -408,15 +408,11 @@ span.name {
 	}
 }
 
-.activity-nav.action-list.activity-list.nav-stacked.ember-view {
-	color: #fff;
-	border-radius: 10px;
-	&:hover {
-		background-color: var(--quaternary-low);
-	}
+.user-secondary-navigation .nav-stacked a {
+    color: #fff;
 }
 
-.user-additional-controls {
+.btn-default.btn.btn-icon-text.ember-view {
 	background-color: #e90426;
 	border-radius: 10px;
 	color: #fff;
