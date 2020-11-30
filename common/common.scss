@@ -17,52 +17,15 @@
 	}
 }
 
-.invites-show form {
-	box-shadow: inset 0 0 100px 0 #636369, 10px 10px 100px 10px #000;
-	border-radius: 10px;
-	padding-left: 15px;
-	padding-bottom: 10px;
-	padding-top: 7px;
-	color: #fff;
-		.instructions {
-			color: #fff;
-		}
-}
-
-.user-info .user-detail .username a {
-	color: #fff;
-}
-
-
-.col-form {
-	color: #fff;
-	box-shadow: inset 10px 10px 100px 10px #000, 10px 10px 100px 10px #000;
-	padding-right: 20px;
-	border-radius: 10px;
-}
-
-.invites-show .two-col {
-	color: #e90426;
-}
-
-#main-outlet {
-	color: #fff;
-}
 
 
 
-.invites-show form button.btn-primary {
-	background-color: #e90426;
-	border-radius: 5px;
-	color: #fff;
-	margin-top: 0px;
-		&:hover {
-			background-color: var(--quaternary-low);
-		}
-}
 
 
-.d-header-icons { /* header icons*/
+
+
+ /* header icons*/
+.d-header-icons {
 	.d-header{
 			max-width: 100%;
 	}
@@ -84,7 +47,17 @@
 	color: #ff0000
 }
 
-.menu-panel { /*drop down menu, top right corner*/
+
+
+
+
+
+
+
+
+
+ /*drop down menu, top right corner*/
+.menu-panel {
 	background: url('https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/themecreator/original/2X/8/89d209422c9bd153eac049ed32239bdaf3dda47d.png');
 	background-size: cover;
 	border-radius: 15px;
@@ -154,7 +127,14 @@
 	}
 }
 
-.admin-detail { /*Admin settings*/
+
+
+
+
+
+
+ /*Admin settings*/
+.admin-detail {
 	background: url('https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/themecreator/original/2X/8/89d209422c9bd153eac049ed32239bdaf3dda47d.png');
 	background-size: cover;
 }
@@ -196,7 +176,16 @@ tbody { /*background of the posting area (table)*/
         color: #ffffff;
 }
 
-.full-width { /*area in middle where "Latest, Top, Categories" buttons are*/
+
+
+
+
+
+
+
+
+ /*area in middle where "Latest, Top, Categories" buttons are*/
+.full-width {
 	box-shadow: inset 0 0 30px #000, 0px 0px 100px #000;
 	border-radius: 13px;
 	width: 100%;
@@ -239,6 +228,10 @@ table th {
 	margin-top: 20px;
 }
 
+.nav-pills>li a.active {
+	color: #fff;
+}
+
 a:visited {
 	color: #b6b6b6;
 }
@@ -261,7 +254,19 @@ span.d-label {
 	color: #fff;
 }
 
-/* LOGIN BUTTON */
+
+
+
+
+
+
+
+
+
+
+
+
+/* LOGIN SETTINGS */
 .d-header .login-button {
 	background-color: #e90426;
 	box-shadow: 0 0 10px #000;
@@ -340,7 +345,64 @@ input[type="text"], input[type="password"], input[type="datetime"], input[type="
 		background-color: var(--quaternary-low);
 	}
 }
+
+.invites-show form {
+	box-shadow: inset 0 0 100px 0 #636369, 10px 10px 100px 10px #000;
+	border-radius: 10px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	padding-top: 7px;
+	color: #fff;
+		.instructions {
+			color: #fff;
+		}
+}
+
+.user-info .user-detail .username a {
+	color: #fff;
+}
+
+.col-form {
+	color: #fff;
+	box-shadow: inset 10px 10px 100px 10px #000, 10px 10px 100px 10px #000;
+	padding-right: 20px;
+	border-radius: 10px;
+}
+
+.invites-show .two-col {
+	color: #e90426;
+}
+
+#main-outlet {
+	color: #fff;
+}
+
+
+
+.invites-show form button.btn-primary {
+	background-color: #e90426;
+	border-radius: 5px;
+	color: #fff;
+	margin-top: 0px;
+		&:hover {
+			background-color: var(--quaternary-low);
+		}
+}
 /* END OF LOGIN INFO */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .btn .d-icon {
 	color: #fff;
 }
@@ -381,6 +443,20 @@ span.name {
 .menu-panel li.category-link .badge-wrapper.bar, .menu-panel li.category-link .badge-wrapper.bullet {
     color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* USER SETTINGS PAGE */
 .user-content {
@@ -467,7 +543,17 @@ div.menu-links-header .menu-links-row li.glyphs a {
 	border-radius: 0 10px 0 0;
 }
 
-button.btn.btn-default.bulk-clear-all { /*Select all button for topics*/
+.alert.alert-info {
+	background: none;
+	color: #fff;
+}
+
+
+/*END OF USER SETTINGS*/
+
+
+ /*Select all button for topics*/
+button.btn.btn-default.bulk-clear-all {
 		border-radius: 10px;
 		background-color: var(--quaternary);
 		color: #fff;
@@ -476,7 +562,11 @@ button.btn.btn-default.bulk-clear-all { /*Select all button for topics*/
 		}
 }
 
-button.btn.btn-default.bulk-select-all { /*Clear all button for topics*/
+
+
+
+ /*Clear all button for topics*/
+button.btn.btn-default.bulk-select-all {
 		border-radius: 10px;
 		background-color: var(--quaternary);
 		color: #fff;
@@ -491,6 +581,11 @@ div.menu-links-header .menu-links-row li a.active {
     position: relative;
     box-shadow: inset 0 0 5px #fff;
 }
+
+
+
+
+
 
 
 /* ALL IN THIS AREA IS FOR CREATING A NEW TOPIC */
