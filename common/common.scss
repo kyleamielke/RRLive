@@ -159,8 +159,12 @@
 .admin-content .admin-contents {
 	background: none;
 }
-	
-body { /*background of the page*/
+
+
+
+
+/*background of the page*/
+body {
 	background: url('https://github.com/kyleamielke/RRLive/raw/main/assets/background%20image.png');
 	background-size: cover;
 	background-attachment: fixed;
@@ -169,8 +173,14 @@ body { /*background of the page*/
 }
 
 
-tbody { /*background of the posting area (table)*/
-	background: url('https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/themecreator/original/2X/8/89d209422c9bd153eac049ed32239bdaf3dda47d.png');
+
+
+
+
+
+/*background of the posting area (table)*/
+tbody { 
+	background: none;
         background-size: cover;
 	border-top: none;
         color: #ffffff;
